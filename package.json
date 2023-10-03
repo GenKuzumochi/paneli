@@ -1,0 +1,38 @@
+{
+  "name": "satoritest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development tsup index.tsx && node dist/index.cjs",
+    "clean": "rm -rf dist && rm -rf node_modules && rm -rf temp",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.4.1",
+    "@types/papaparse": "^5.3.9",
+    "@types/react": "^18.2.24",
+    "commander": "^11.0.0",
+    "deepmerge": "^4.3.1",
+    "jszip": "^3.10.1",
+    "lodash-es": "^4.17.21",
+    "nanoid": "^5.0.1",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "satori": "^0.10.8",
+    "sucrase": "^3.34.0",
+    "svgo": "^3.0.2",
+    "yargs": "^17.7.2",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/react-dom": "^18.2.8",
+    "@types/yargs": "^17.0.26",
+    "tsup": "^7.2.0"
+  }
+}

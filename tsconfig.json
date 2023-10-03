@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution":"node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "allowSyntheticDefaultImports":true,
+  }
+}
